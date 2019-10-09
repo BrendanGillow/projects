@@ -1,10 +1,11 @@
 function [w, iterations] = perceptron_learn(data_in)
-% perceptron_learn: Run PLA on the input data
+% Written as part CSE 417T Introduction to Machine Learning 
+%perceptron_learn: Run PLA on the input data
 % Inputs:  data_in is a matrix with each row representing an (x,y) pair;
 %                 the x vector is augmented with a leading 1,
 %                 the label, y, is in the last column
 % Outputs: w is the learned weight vector; 
-%            it should linearly separate the data if it is linearly separable
+%            it should linearly separate the data if the data is linearly separable
 %          iterations is the number of iterations the algorithm ran for
 
 dataInSize = size(data_in);
@@ -14,7 +15,7 @@ w = zeros(1, d+1);      %weight vector to be updated
 nextAdjustment = 0;          %x to adjust by each iteration
 iterations =0;          %iterations til w is found
 
-while(nextAdjustment >= 0)
+while(nextAdjustment >= 0)  %while there are any point misclasified by w(t)
     for x = 1:N
         trueY = data_in(x, d+2);                % actual value of Y
         dotProduct = dot( w, data_in(x, 1:d+1));     %classification by w 
