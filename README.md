@@ -9,7 +9,7 @@
      ###### Was completed as a part of CSE 330. I cannot post code due to course policy
 3. File Sharing Site (Done with Linux, Apache, PHP) [Link](http://ec2-18-220-90-195.us-east-2.compute.amazonaws.com/~bgillow/module2/login.php)
 
- Supports file upload, viewing, download, deletion and the ability to control visibility for other users.  
-    Available Logins: bgillow, mike, TA, admin
+   Supports file upload, viewing, download, deletion and the ability to control visibility for other users.  
+   Available Logins: bgillow, mike, TA, admin
    ###### Was completed as a part of CSE 330 with Michael Hofstadter. I cannot post code due to course policy</h6>
    
