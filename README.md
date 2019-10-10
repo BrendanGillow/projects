@@ -2,7 +2,7 @@
 1. Linear Machine Learning Algorithm for Binary Classification (Done in MATLAB) <br>
    <t> Algorithm finds best linear separator to classify n-dimensional data 
     </t>
-    <h6>Was completed as a part of CSE 417/h6>
+    <h6>Was completed as a part of CSE 417</h6>
 2. News Site (Done with LAMP Stack:Linux, Apache, PHP, MySQL) [Link](http://ec2-18-220-90-195.us-east-2.compute.amazonaws.com/~bgillow/module3/homepage.php) <br>
     <t>Users can make an account allowing them to post stories and comment on stories as well as edit and delete their past stories and comments. 
    </t> 
