@@ -7,5 +7,5 @@
 
 3. File Sharing Site (Done with Linux, Apache, PHP) <br> 
  <t> Supports file upload, viewing, download, deletion and the ability to control visibility for other users 
-   <h10>Was completed as a part of CSE 330. I cannot post code due to course policy</h10>
+   <h6>Was completed as a part of CSE 330. I cannot post code due to course policy</h6>
    </t>
